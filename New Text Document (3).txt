@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Postin</title>
+    <link rel="stylesheet" href="Format.css">
+    <script src="https://kit.fontawesome.com/47c8e41510.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="Hidden fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="Hidden fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Graphic Designer / Illustrator</p>
+            <h1>Hi, I'm <span>Noah</span></h1>
+        </div>
+    </div>
+</div>
+<!---------------------about---------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/About-me-picture.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello I'm Noah I have been study at Illinois College for 4 years now. I will be graduating 
+                    this may and am currently looking for graphic design, illustration, or management positions. 
+                    I have a vast knowledge of majority of Adobe programs and a eagerness to use them. I also have 
+                    5 years of management experience that provided me with communication and leadership skills. Lets 
+                    get this thing started!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Advanced Graphic design</span><br>Mastery in Adobe Photoshop, Illustrator, and InDesign with 7 years experience Video Production:  Proficient in Adobe Premiere Pro and After Effects for editing promotional videos, including motion graphics integration.</li>
+                            <li><span>Web design</span><br>Experienced in HTML and CSS; adept at designing responsive websites and enhancing user interface aesthetics.</li>
+                            <li><span>Video Production</span><br>Proficient in Adobe Premiere Pro and After Effects for editing promotional videos, including motion graphics integration.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul >
+                            <li><span>ILLINOIS COLLEGE</span>
+                                <br>
+                                <br><em>Major:</em> Bachelors of Arts degree in Art.
+                                <br><em>Minor:</em> Marketing
+                                <br>
+                                <br>Design Classes:
+                                <ul style="font-size: 12px;">
+                                    <li>AR 131 Visual Perceptions Through Drawing</li>
+                                    <li>AR 100 Two-dimensional Aesthetics</li>
+                                    <li>AR 346 Theories & Philos Cont Art & Culture</li>
+                                    <li>AR 342 Medium Development, Exper & Innovation</li>
+                                    <li>AR 204 Visual Communication</li>
+                                    <li>AR 462 KG3	IS: Illustration</li>
+                                    <li>AR 461 KG3	IS: Animation</li>
+                                    <li>AR 361 New Media and Interdisciplinary Per</li>
+                                    <li>AR 344 Motion Graphics & Animation</li>
+                                    <li>AR 461 KG	IS: Digital Art</li>
+                                </ul>
+                                <br>Marketing Classes:
+                                <ul style="font-size: 12px;">
+                                    <li>CO 240 Intro to Mass Comm</li>
+                                    <li>EC 105 B	Principles of Economics</li>
+                                    <li>CO 214 Advertising and Pub Relations</li>
+                                    <li>MG 354 Marketing</li>
+                                    <li>MG 350 Consumer Behavior</li>
+                                    <li>MG 356 Integrated Marketing Communications</li>
+                                    <li>MG 454 Marketing Management</li>
+                                    <li>EC 245 Statistics</li>
+                                </ul>
+                                <br>Web design Classes:
+                                <ul style="font-size: 12px;">
+                                    <li>CS 197 Intro to Web Design</li>
+                                    <li>Intro to Python</li>
+                                    <li>Computer Science I</li>
+                                    <li>Computer SCience II</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Design Lead - UI</span><br>Engaged a software development process across multiple disciplines including physicist to engineer an educational simulation focused on the principles of special relativity.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------services------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designs</h2>
+                <p>Enhance your online presence with my professional web design services. I specialize in creating visually stunning, user-friendly websites tailored to your unique needs. Let me help you captivate your audience and grow your business.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-paintbrush"></i>
+                <h2>Illustrations</h2>
+                <p>Bring your projects to life with my Illustrations service! I will deliver customized, high-quality visuals in a variety of styles to perfectly match your needs. Let's bring your ideas to life!</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-object-group"></i>
+                <h2>Branding graphics</h2>
+                <p>craft unique branding graphics, including logos and color schemes, tailored to enhance your business's identity and appeal to your target audience.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------Portfolio------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <div class="container2">
+                    <img src="images/websites.png" class="scrolling-image" alt="Scrolling Image">
+                    <img src="images/websites.png" class="scrolling-image" alt="Scrolling Image">
+                </div>
+                <div class="layer">
+                    <h3>Websites</h3>
+                    <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="container2">
+                    <img src="images/Untitled-1.png" class="scrolling-image" alt="Scrolling Image">
+                    <img src="images/Untitled-1.png" class="scrolling-image" alt="Scrolling Image">
+                </div>
+                <div class="layer">
+                    <h3>Illustrations</h3>
+                    <a href="https://www.artstation.com/artwork/qerXkL" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <div class="container2">
+                    <img src="images/Chicken Logo with pen-Recovered.png" class="scrolling-image" alt="Scrolling Image">
+                    <img src="images/Chicken Logo with pen-Recovered.png" class="scrolling-image" alt="Scrolling Image">
+                </div>
+                <div class="layer">
+                    <h3>Marketing Designs</h3>
+                    <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------=Contact------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> nlpostin@gmail.com</p>
+                <p><i class="fa-brands fa-discord"></i>postin_</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/noah-postin-6155412b6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/DiceyNo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href= "https://www.artstation.com/the_dicey" target="_blank"><i class="fa-brands fa-artstation"></i></i></a>
+                </div>
+                <a href="images/Resume_Noah.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Noah Postin</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9CAqahSb8MazyL-SGJ8ocrJq9cPYhvjimXbWT1kSm7jtlOZag10V1Pq29RVr0cLQUxg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
